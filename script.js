@@ -1,4 +1,4 @@
-let song = new Audio(`/star.mp3`)
+let song = new Audio(`star.mp3`)
 let progress = document.getElementById("play-track")
 let ctrlIcon = document.getElementById("ctrl");
 let left = document.getElementById('ctrl-left')
@@ -53,8 +53,8 @@ let arr = [{
 
 },
 {
-    img: '/these.png',
-    vid: '/these.mp3',
+    img: 'these.png',
+    vid: 'these.mp3',
     h: 'These Days',
     h2: 'Sidhu Moose Wala'
 
@@ -169,7 +169,7 @@ playbtn.forEach((el,indx) =>{
     })
     
     })
-    // let ltime = document.querySelector('.l-time')
+    // Finally change it it's not
 
 
 song.addEventListener("timeupdate", () => {
